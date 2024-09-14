@@ -1,0 +1,122 @@
+*{
+    font-family: Helvetica;
+    text-align: center;
+    color: seashell;
+}
+
+h2 { font-size: 38px;}
+
+h3{ font-size: 26px;}
+
+h4 { font-size: 22px;}
+
+h5 { font-size: 16px;}
+
+p { font-size: 18px;
+    margin-top: 30px;}
+
+body{
+    background-color: black;
+    opacity: 0.9;
+    max-width: 1200px;
+  
+}
+
+/* HEADER AND NAVIGATION*/
+
+header {
+    display: inline-block;
+    min-height: 69px;
+    border-bottom: 1px solid seashell;
+    color: seashell;
+    text-decoration: underline;
+    font-size: 22px;
+    width: 100%;
+   
+}
+header img{
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+   
+}
+
+nav {
+    display: inline-block;
+    float: right;
+   
+    
+}
+
+header li {display: inline-block;
+            padding-left: 20px;}
+
+
+/*--------MISSION-----------*/
+
+.mission {
+   height: 700px;
+    width: 1200px;
+  
+}
+
+.mission .heading {
+    background-color: black;
+    position: relative;
+    top: 45%;
+    max-width: 1200px;
+}
+
+.mission h2 {
+    padding-top: 10px;
+}
+.mission h4 {padding-bottom: 10px;}
+
+/* TEA OF THE MONTH */
+
+.monthly div {
+             max-height: 500px;
+             max-width: 1000px;
+             
+}
+.monthly img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+figcaption{ display: inline-block;}
+
+/* ----- LOCATIONS------*/
+
+
+.locations {
+    width: 1200px;
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.locations div {
+ 
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+
+}
+.locations h2 {position: relative;
+              top: 75px;
+            z-index: 5;
+        }
+
+
+
+.address { 
+    
+    margin: 15px 15px;
+    padding: 20px 0;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    max-height: 250px;
+    max-width: 300px;
+   
+}
